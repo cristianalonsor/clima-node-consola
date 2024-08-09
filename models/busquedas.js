@@ -21,7 +21,6 @@ export class Busquedas {
   }
 
   get paramsWeather() {
-    //&appid=0e2ca3b07cdb52354296b02e09351dca&units=metric&lang=es
     return {
       'appid': process.env.OPENWEATHER_KEY,
       'units':'metric',
